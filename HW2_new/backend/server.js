@@ -10,7 +10,7 @@ const port = 3005; // Define the port here
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow requests from your frontend
+  origin: 'https://web-twy5.vercel.app/login', // Allow requests from your frontend
   methods: ['GET', 'POST'], // Allow specific methods
   allowedHeaders: ['Content-Type'], // Allow specific headers
 }));
